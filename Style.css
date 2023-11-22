@@ -1,0 +1,254 @@
+body {
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: inset 5px 4px 50px rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Segoe UI'
+}
+
+.logodelanav {
+    width: 20%;
+}
+
+.logodelanav>img {
+    width: 60%;
+    margin: 5%;
+}
+
+.lanav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+
+.fond {
+    background-image: url(Img/bg.png);
+    text-align: center;
+    font-family: Permanent Marker;
+    font-size: x-large;
+    color: rgb(16, 16, 16);
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    padding: 1%;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(16, 16, 16);
+    padding: 1%;
+    font-family: Permanent Marker;
+    font-size: large;
+    background-size: cover;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 15px solid rgb(255, 255, 255);
+}
+
+.g1,
+.g2,
+.g3,
+.g4 {
+    border: 15px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    padding: 20px;
+    font-size: x-large;
+}
+
+.g1 {
+    grid-column: 1 / 5;
+    grid-row: 1 /2;
+}
+
+.g2 {
+    grid-column: 1 / 2;
+    grid-row: 2 /3;
+}
+
+.g3 {
+    grid-column: 2 / 5;
+    grid-row: 2 /3;
+}
+
+.g4 {
+    grid-column: 1 / 5;
+    grid-row: 3 /4;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 15px solid rgb(255, 255, 255);
+}
+
+.gg1,
+.gg2,
+.gg3,
+.gg4,
+.gg5,
+.gg6,
+.gg7,
+.gg8,
+.gg9 {
+    border: 15px solid rgb(255, 255, 255);
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.gg1 {
+    grid-column: 1 / 6;
+    grid-row: 1 /2;
+}
+
+.gg2 {
+    grid-column: 1 / 2;
+    grid-row: 2 /7;
+}
+
+.gg3 {
+    grid-column: 2 / 3;
+    grid-row: 2 /3;
+}
+
+.gg4 {
+    grid-column: 2 / 3;
+    grid-row: 3 /4;
+}
+
+.gg5 {
+    grid-column: 2 / 3;
+    grid-row: 4 /5;
+}
+
+.gg6 {
+    grid-column: 2 / 3;
+    grid-row: 5 /6;
+}
+
+.gg7 {
+    grid-column: 2 / 3;
+    grid-row: 6 /7;
+}
+
+.gg8 {
+    grid-column: 3 / 6;
+    grid-row: 2 /7;
+}
+
+.gg9 {
+    grid-column: 1/6;
+    grid-row: 7/8;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    text-align: center;
+}
+
+.grid3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid3 video {
+    max-width: 120%;
+    height: 100%;
+}
+
+.ggg1 {
+    grid-column: 1/4;
+    grid-row: 1/7;
+    padding: 10px;
+    background-image: url(https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg);
+    border-radius: 50%;
+    margin: 2%;
+    filter: drop-shadow(0 -2mm 2mm rgb(20, 6, 104));
+}
+
+.ggg2 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#test {
+    border-radius: 50%;
+   
+}
+
+.ggg3 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.ggg4 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.ggg5 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.ggg6 {
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+.ggg7 {
+    grid-column: 6/11;
+    grid-row: 1/7;
+}
+
+#la {
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#la .image_rotate {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
