@@ -188,9 +188,9 @@ h2 {
 }
 
 .ggg1 {
-    grid-column: 1/4;
-    grid-row: 1/7;
-    padding: 10px;
+    grid-column: 1/3;
+    grid-row: 1/6;
+    padding: 10%;
     margin: 2%;
     filter: drop-shadow(0 -2mm 2mm rgb(20, 6, 104));
     position: relative;
@@ -207,7 +207,7 @@ h2 {
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-image: url(Img/rainbow-nebula.jpg);
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 .ggg1:hover .flip-card-inner {
@@ -230,12 +230,12 @@ h2 {
 .flip-card-back {
     color: white;
     transform: rotateY(180deg);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
 }
 
-TT. {
-    overflow-wrap: break-word
+.TT {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50% 15%;
+    font-size: 70%;
 }
 
 .ggg2 {
@@ -312,4 +312,14 @@ TT. {
     to {
         transform: rotate(0deg);
     }
+}
+
+.basdepage {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font
+}
+
+.basdepage img {
+    width: 40px;
 }
